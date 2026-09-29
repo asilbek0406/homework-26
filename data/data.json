@@ -1,0 +1,235 @@
+{
+  "mercedes": [
+    {
+      "title": "Mercedes-Benz S 500",
+      "specs": "3.0 R6 Turbo · 435 л.с.",
+      "price": 128000,
+      "image": "images/mercedes-s500.webp",
+      "description": "Флагманский седан S-класса — эталон комфорта и технологий. Пневмоподвеска, массаж всех сидений, автопилот третьего уровня и салон, в котором тишина дороже музыки.",
+      "count": 3,
+      "availableColors": [
+        "#0B0B0D",
+        "#C7C9CC",
+        "#2E3A4E",
+        "#5B5D5F"
+      ],
+      "variants": {
+        "#0B0B0D": "images/mercedes-s500-0B0B0D.webp",
+        "#C7C9CC": "images/mercedes-s500-C7C9CC.webp",
+        "#2E3A4E": "images/mercedes-s500-2E3A4E.webp",
+        "#5B5D5F": "images/mercedes-s500-5B5D5F.webp"
+      }
+    },
+    {
+      "title": "Mercedes-AMG G 63",
+      "specs": "4.0 V8 Biturbo · 585 л.с.",
+      "price": 185000,
+      "image": "images/mercedes-g63.webp",
+      "description": "Легендарный «Гелендваген» с мотором AMG V8 на 585 л.с. Квадратная классика, которая узнаётся с любого ракурса и разгоняется до сотни за 4.5 секунды.",
+      "count": 2,
+      "availableColors": [
+        "#0B0B0D",
+        "#F4F5F6",
+        "#4A4E52"
+      ],
+      "variants": {
+        "#0B0B0D": "images/mercedes-g63-0B0B0D.webp",
+        "#F4F5F6": "images/mercedes-g63-F4F5F6.webp",
+        "#4A4E52": "images/mercedes-g63-4A4E52.webp"
+      }
+    },
+    {
+      "title": "Mercedes-Benz E 300",
+      "specs": "2.0 Turbo Hybrid · 258 л.с.",
+      "price": 74000,
+      "image": "images/mercedes-e300.webp",
+      "description": "Бизнес-седан для тех, кто проводит в дороге больше, чем в офисе. Гибридная установка, адаптивный круиз и огромный MBUX-экран во всю панель.",
+      "count": 6,
+      "availableColors": [
+        "#1C2331",
+        "#C7C9CC",
+        "#7A2E2E",
+        "#0B0B0D"
+      ],
+      "variants": {
+        "#1C2331": "images/mercedes-e300-1C2331.webp",
+        "#C7C9CC": "images/mercedes-e300-C7C9CC.webp",
+        "#7A2E2E": "images/mercedes-e300-7A2E2E.webp",
+        "#0B0B0D": "images/mercedes-e300-0B0B0D.webp"
+      }
+    },
+    {
+      "title": "Mercedes-Benz GLE 450",
+      "specs": "3.0 R6 Turbo · 375 л.с.",
+      "price": 96000,
+      "image": "images/mercedes-gle450.webp",
+      "description": "Семейный кроссовер премиум-класса: семь мест, полный привод 4MATIC и багажник, в который помещается всё. Мягкий на трассе, уверенный на грунте.",
+      "count": 4,
+      "availableColors": [
+        "#0B0B0D",
+        "#3A4A3F",
+        "#C7C9CC"
+      ],
+      "variants": {
+        "#0B0B0D": "images/mercedes-gle450-0B0B0D.webp",
+        "#3A4A3F": "images/mercedes-gle450-3A4A3F.webp",
+        "#C7C9CC": "images/mercedes-gle450-C7C9CC.webp"
+      }
+    },
+    {
+      "title": "Mercedes-AMG C 63 S",
+      "specs": "2.0 Turbo Hybrid · 680 л.с.",
+      "price": 112000,
+      "image": "images/mercedes-c63s.webp",
+      "description": "Компактный седан с характером суперкара. 680 гибридных лошадиных сил, керамические тормоза и выхлоп, который слышно раньше, чем видно машину.",
+      "count": 1,
+      "availableColors": [
+        "#7A2E2E",
+        "#0B0B0D",
+        "#F4F5F6"
+      ],
+      "variants": {
+        "#7A2E2E": "images/mercedes-c63s-7A2E2E.webp",
+        "#0B0B0D": "images/mercedes-c63s-0B0B0D.webp",
+        "#F4F5F6": "images/mercedes-c63s-F4F5F6.webp"
+      }
+    }
+  ],
+  "bmw": [
+    {
+      "title": "BMW X5 xDrive40i",
+      "specs": "3.0 R6 Turbo · 375 л.с.",
+      "price": 89000,
+      "image": "images/bmw-x5.jpg",
+      "description": "Кроссовер, с которого начался сегмент SAV. Рядная «шестёрка», пневмоподвеска и фирменная управляемость BMW в кузове для всей семьи.",
+      "count": 5,
+      "availableColors": [
+        "#0B0B0D",
+        "#1C2A45",
+        "#C7C9CC",
+        "#F4F5F6"
+      ]
+    },
+    {
+      "title": "BMW M4 Competition",
+      "specs": "3.0 R6 Biturbo · 510 л.с.",
+      "price": 102000,
+      "image": "images/bmw-m4.jpg",
+      "description": "Купе для трек-дней и городских понтов одновременно. 510 л.с., задний привод с режимом дрифта и решётка, о которой спорит весь интернет.",
+      "count": 2,
+      "availableColors": [
+        "#2E5BFF",
+        "#0B0B0D",
+        "#3A9B5C"
+      ]
+    },
+    {
+      "title": "BMW 740d xDrive",
+      "specs": "3.0 R6 Diesel · 300 л.с.",
+      "price": 134000,
+      "image": "images/bmw-740d.jpg",
+      "description": "Представительский седан новой эры: театральный экран 31 дюйм для задних пассажиров, автоматические двери и дизель, расходующий меньше компактного хэтчбека.",
+      "count": 3,
+      "availableColors": [
+        "#0B0B0D",
+        "#2E3A4E",
+        "#C7C9CC"
+      ]
+    },
+    {
+      "title": "BMW X6 M Competition",
+      "specs": "4.4 V8 Biturbo · 625 л.с.",
+      "price": 145000,
+      "image": "images/bmw-x6m.jpg",
+      "description": "Купе-кроссовер с мотором от суперкара: 625 л.с., 4.1 секунды до сотни. Практичность здесь принесена в жертву стилю — и владельцы не жалеют.",
+      "count": 2,
+      "availableColors": [
+        "#1C2A45",
+        "#0B0B0D",
+        "#5B5D5F"
+      ]
+    },
+    {
+      "title": "BMW iX xDrive50",
+      "specs": "Электро · 523 л.с.",
+      "price": 98000,
+      "image": "images/bmw-ix.jpg",
+      "description": "Электрический флагман с запасом хода 630 км. Салон из переработанных материалов, стеклянная крыша с электрозатемнением и разгон без единого звука.",
+      "count": 4,
+      "availableColors": [
+        "#4A4E52",
+        "#F4F5F6",
+        "#2E3A4E"
+      ]
+    }
+  ],
+  "porsche": [
+    {
+      "title": "Porsche 911 Carrera S",
+      "specs": "3.0 Boxer Biturbo · 450 л.с.",
+      "price": 142000,
+      "image": "images/porsche-911.jpg",
+      "description": "Икона спорткаров, не меняющая силуэт 60 лет. Оппозитный мотор за задней осью, 450 л.с. и управляемость, по которой калибруют все остальные машины мира.",
+      "count": 2,
+      "availableColors": [
+        "#C7352E",
+        "#0B0B0D",
+        "#F4F5F6",
+        "#F2C230"
+      ]
+    },
+    {
+      "title": "Porsche Cayenne Turbo",
+      "specs": "4.0 V8 Biturbo · 550 л.с.",
+      "price": 156000,
+      "image": "images/porsche-cayenne.jpg",
+      "description": "Кроссовер, который ездит быстрее многих спорткаров. Битурбо V8 на 550 л.с., карбоновая крыша и пять посадочных мест для семейных поездок на 300 км/ч.",
+      "count": 3,
+      "availableColors": [
+        "#0B0B0D",
+        "#C7C9CC",
+        "#2E3A4E"
+      ]
+    },
+    {
+      "title": "Porsche Panamera 4S",
+      "specs": "2.9 V6 Biturbo · 440 л.с.",
+      "price": 129000,
+      "image": "images/porsche-panamera.jpg",
+      "description": "Четырёхдверный спорткар для тех, кто не готов выбирать между 911 и седаном. Задние управляемые колёса и посадка ниже, чем у иных купе.",
+      "count": 4,
+      "availableColors": [
+        "#3A2E4E",
+        "#0B0B0D",
+        "#C7C9CC"
+      ]
+    },
+    {
+      "title": "Porsche Macan GTS",
+      "specs": "2.9 V6 Biturbo · 434 л.с.",
+      "price": 87000,
+      "image": "images/porsche-macan.jpg",
+      "description": "Самый доступный способ войти в мир Porsche — и самый популярный. Компактный кроссовер с повадками хот-хэтча и фирменным звуком выхлопа Sport Chrono.",
+      "count": 7,
+      "availableColors": [
+        "#1C4532",
+        "#0B0B0D",
+        "#F4F5F6",
+        "#C7352E"
+      ]
+    },
+    {
+      "title": "Porsche Taycan Turbo S",
+      "specs": "Электро · 761 л.с.",
+      "price": 187000,
+      "image": "images/porsche-taycan.jpg",
+      "description": "Электрический Porsche, доказавший, что будущее звучит тихо, но едет громко: 761 л.с., 2.8 секунды до сотни и зарядка на 100 км за пять минут.",
+      "count": 1,
+      "availableColors": [
+        "#4E9BB8",
+        "#F4F5F6",
+        "#0B0B0D"
+      ]
+    }
+  ]
+}

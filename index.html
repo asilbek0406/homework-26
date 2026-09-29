@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Apex Motors — коллекция премиальных автомобилей.">
+    <title>Apex Motors</title>
+
+    <!-- Шрифты: Syne — заголовки и цены, Plus Jakarta Sans — основной текст -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Размытые цветные пятна-свечения на фоне -->
+    <div class="page-glow page-glow--purple"></div>
+    <div class="page-glow page-glow--blue"></div>
+
+    <main class="page-shell">
+        <!-- Шапка: логотип и вкладки брендов -->
+        <header class="topbar glass-panel">
+            <a class="brand" href="#" aria-label="Apex Motors">
+                <span class="brand-mark">A</span>
+                <span class="brand-name"><strong>APEX</strong> <span>MOTORS</span></span>
+            </a>
+
+            <nav class="brand-tabs" aria-label="Категории автомобилей">
+                <button class="tab active" data-brand="mercedes" onclick="selectBrand('mercedes')">Mercedes</button>
+                <button class="tab" data-brand="bmw" onclick="selectBrand('bmw')">BMW</button>
+                <button class="tab" data-brand="porsche" onclick="selectBrand('porsche')">Porsche</button>
+            </nav>
+        </header>
+
+        <!-- Заголовок выбранного бренда -->
+        <section class="hero">
+            <div>
+                <p class="eyebrow">КОЛЛЕКЦИЯ 2026</p>
+                <h1 id="brandTitle">Mercedes-Benz</h1>
+            </div>
+            <p class="model-count" id="modelCount"></p>
+        </section>
+
+        <!-- Сюда renderCards() вставляет карточки -->
+        <section class="cards" aria-live="polite"></section>
+    </main>
+
+    <!-- Модальное окно с деталями автомобиля -->
+    <div class="modal" id="carModal" aria-hidden="true">
+        <div class="modal-backdrop" onclick="closeModal()"></div>
+
+        <article class="modal-window glass-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+            <button class="modal-close" type="button" onclick="closeModal()" aria-label="Закрыть">×</button>
+
+            <div class="modal-image-wrap">
+                <img id="modalImage" src="" alt="">
+            </div>
+
+            <div class="modal-info">
+                <p class="modal-kicker" id="modalKicker"></p>
+                <h2 id="modalTitle"></h2>
+                <p class="modal-price" id="modalPrice"></p>
+                <p class="modal-description" id="modalDescription"></p>
+
+                <p class="stock"><span class="stock-dot"></span> В наличии: <strong id="modalCount"></strong> шт.</p>
+
+                <div class="colors-section">
+                    <span class="colors-label">Цвет:</span>
+                    <span class="colors-name" id="modalColorName"></span>
+                    <div class="color-list" id="modalColors"></div>
+                </div>
+
+                <button class="modal-order" type="button" onclick="orderCar()">Заказать</button>
+            </div>
+        </article>
+    </div>
+
+    <!-- Уведомление об успешной заявке (показывается после alert) -->
+    <div class="toast" id="toast" role="status" aria-live="polite">
+        <span class="toast-icon" aria-hidden="true">✓</span>
+        <div class="toast-text">
+            <strong>Заявка принята</strong>
+            <span id="toastCar"></span>
+        </div>
+        <span class="toast-progress"></span>
+    </div>
+
+    <!-- Axios подключается ДО script.js (требование ТЗ) -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
